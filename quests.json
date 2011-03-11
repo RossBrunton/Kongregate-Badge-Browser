@@ -1,0 +1,19 @@
+[
+
+{"name":"Beginner", "description":"<h2>It's time to earn some badges!</h2>Hundreds of the best games on Kongregate contain tasks that award badges when completed -- visible to anyone from your profile. Below is a list of some great games to get you started, hand-picked by the Kongregate staff for being simple to play and lots of fun. Earn every badge below to unlock the <b>Graduation Medal and earn 30 bonus points!</b>", "icon":"http://cdn3.kongregate.com/assets/files/0000/0582/medal_starter.png", "badges":[790, 789, 759, 750, 646, 552, 362, 358,  184, 126], "end":"Never"},
+
+{"name":"Best of 2007", "description":"Relive the first magical year on Kongregate with a look back all the way to 2007 (and technically late 2006) with the top 10 games of the year! Earn the designated badge in each game to earn 50 bonus points.", "icon":"http://cdn2.kongregate.com/assets/raffle_images/0000/0020/medal_2007_130x90.png", "badges":[924, 260, 229, 215, 157, 136, 127, 113, 53, 20], "end":"Never"},
+
+{"name":"Best of 2008", "description":"SEQUELS! 2008 had plenty of them. Complete each designated badge in the top 10 games of 2008 to earn 50 bonus points!", "icon":"http://cdn1.kongregate.com/assets/raffle_images/0000/0019/medal_2008_130x90.png", "badges":[454, 364, 359, 349, 342, 338, 303, 263, 193, 185], "end":"Never"},
+
+{"name":"Best of 2009", "description":"Complete some badges from the top 10 games of 2009 to earn 50 bonus points!", "icon":"http://cdn4.kongregate.com/assets/raffle_images/0000/0021/medal_2009_130x90.png", "badges":[928, 881, 792, 735, 718, 707, 689, 675, 651, 648], "end":"Never"},
+
+{"name":"Best of 2010", "description":"Complete some badges from the top 10 games of 2010 to earn 50 bonus points!", "icon":"http://cdn4.kongregate.com/assets/raffle_images/0000/0036/medal_2010_130x90.png", "badges":[1303, 1302, 1219, 1156, 1077, 1066, 1058, 1021, 1003], "end":"Never"},
+
+{"name":"Pixel Pack", "description":"Back in my day, we didn't have these fancy vector graphics or 3D polygonism hoopla! Celebrate the pixelated past in each badge below to earn 50 bonus points!", "icon":"http://cdn3.kongregate.com/assets/raffle_images/0000/0026/medal_pixel-games_v2_130x90.png", "badges":[1057, 1014, 956, 879, 869, 787, 783, 728, 313], "end":"Never"}, 
+
+{"name":"Portal 2: Atlas", "description":"Complete all the badges in this Quest to become Atlas from the game Portal 2!<br/><br/>Once you've become Atlas, you'll be able to start receiving Orange Portals from P-Body users, so be sure to find them. Once you receive 3 Orange Portals, you will complete the Portal 2 mission! You also have gained the ability to shoot 3 Blue Portals to P-Body users so they can complete their mission. Be sure to give all 3, you'll be rewarded for your generosity. WILL THERE BE CAKE?", "icon":"http://cdn3.kongregate.com/assets/files/0000/2213/quest_atlas.png", "badges":[1060, 789, 567, 470, 279], "end":"March 18th, 2011"},
+
+{"name":"Portal 2: P Body", "description":"Complete all the badges in this Quest to become P-Body from the game Portal 2!<br/><br/>Once you've become P-Body, you'll be able to start receiving Blue Portals from Atlas users, so be sure to find them. Once you receive 3 Blue Portals, you will complete the Portal 2 mission! You also have gained the ability to shoot 3 Orange Portals to Atlas users so they can complete their mission. Be sure to give all 3, you'll be rewarded for your generosity. WILL THERE BE CAKE?", "icon":"http://cdn3.kongregate.com/assets/files/0000/2214/quest_pbody.png", "badges":[1292, 1122, 1110, 822, 231], "end":"March 18th, 2011"}
+
+]

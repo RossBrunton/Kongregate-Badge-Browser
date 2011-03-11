@@ -1,0 +1,44 @@
+Hello! This is my badge browser for Kongregate! Take a seat! You can use the app itself at http://badge.wolfthatissavage.com/
+
+~== Installation ==~
+If you want to use this on your own server for some reason, follow these instructions. (You need PHP on your server)
+
+1.	Get the source. Duh.
+2.	Place the source where you want the app to exist, for example, I used a folder and mapped it to the subdomain badge.wolfthatissavage.com/
+3.	Rename conf.js and conf.php from their names, it should be obvious what to remove...
+4.	Crack open conf.js and configure like mad!
+5.	Set "php /path/to/rssUpdate.php on a crontab so it autoupdates. I set mine to every 15mins.
+6.	It should work now.
+
+If you want to use a ranking system, it is not so simple... And you need to make a mySQL database.
+
+1.	Make a new table called badgebrowse_ranking (with a new database if needed)
+2.	Set it up as thus:
+	ID: int(11), AUTO_INCREMENT
+	easy:int(4)
+	medium:int(4)
+	hard:int(4)
+	impossible:int(4)
+	allb:int(4)
+	points:int(8)
+	username:tinytext, utf8_unicode_ci
+3.	Open up config.php and fill in all the info.
+4.	Set RANKING as true in config.js.
+
+~== Customisations ==~
+So you want to customise it? OK!
+
+To add a new badge set:
+1.	Go to img, copy a folder there, and rename it.
+2.	Draw the images using the existing filenames.
+3.	Find where it says like <a onclick='setSet("circular")' title='Circular, by SavageWolf'><img src='img/circular/B_medium_medium.png' style='border:0px'/></a>, and add a new one.
+
+To add more random hints:
+1.	Open messages.json
+2.	Edit messages.json
+3.	Save messages.json
+
+~== Boring Legal Stuff ==~
+License can be found in LICENSE.txt.
+
+Generally, you can do whatever you want. Yay! :D It would be nice if you gave me credit, but you don't strictly HAVE to...

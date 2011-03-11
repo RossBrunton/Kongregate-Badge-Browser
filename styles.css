@@ -1,0 +1,127 @@
+body {
+	background-color:#fefefe;
+}
+
+a {
+	color:#990000;
+	cursor:pointer;
+	text-decoration:none;
+}
+
+div.box_header{
+	background-color:#555555;
+	width:1000px;
+	margin-bottom:0px;
+	margin-left:auto;
+	margin-right:auto;
+	color:#ffffff;
+	border:1px solid #555555;
+	display:none;
+	border-top-right-radius:15px;
+	border-top-left-radius:15px;
+}
+
+div.box_body{
+	background-color:#efefef;
+	width:1000px;
+	margin-top:0px;
+	margin-bottom:25px;
+	margin-left:auto;
+	margin-right:auto;
+	border:1px solid #555555;
+	display:none;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+}
+
+div.bar_border {
+	width:500px;
+	height:10px;
+	margin:0px;
+	border:1px solid #333333;
+}
+
+/* Badges */
+div.badge_medium { 
+	position: relative;
+}
+div.badge_medium img { 
+	border: 0; 
+}
+div.badge_image_medium {
+	width: 44px;
+	height: 44px; 
+	z-index: 1
+}
+div.badge_image_medium img { 
+	width: 36px; 
+	height: 36px; 
+	margin: 4px; 
+}
+div.badge_border_medium {
+	width: 44px;
+	height: 44px; 
+	position: absolute;
+	top: 0; 
+	z-index: 2 
+}
+
+div.badge_small { 
+	position: relative;
+}
+div.badge_small img { 
+	border: 0; 
+}
+div.badge_image_small {
+	width: 22px;
+	height: 22px; 
+	z-index: 1
+}
+div.badge_image_small img { 
+	width: 18px; 
+	height: 18px; 
+	margin: 2px; 
+}
+div.badge_border_small {
+	width: 22px;
+	height: 22px; 
+	position: absolute;
+	top: 0; 
+	z-index: 2 
+}
+
+div.badge_big { 
+	position: relative;
+}
+div.badge_big img { 
+	border: 0; 
+}
+div.badge_image_big {
+	width: 88px;
+	height: 88px; 
+	z-index: 1
+}
+div.badge_image_big img { 
+	width: 80px; 
+	height: 80px; 
+	margin: 4px; 
+}
+div.badge_border_big {
+	width: 88px;
+	height: 88px; 
+	position: absolute;
+	top: 0; 
+	z-index: 2 
+}
+
+
+
+td.badge_box {
+	padding:2px;
+	margin:0px;
+}
+
+td.badge_row {
+	padding:0px;
+	margin:0px;
+}
