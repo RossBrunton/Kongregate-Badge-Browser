@@ -1,10 +1,10 @@
-Hello! This is my badge browser for Kongregate! Take a seat! You can use the app itself at http://badge.wolfthatissavage.com/
+Hello! This is my badge browser for Kongregate! Take a seat! You can use the app itself at http://badge.savagewolf.org/
 
 ~== Installation ==~
 If you want to use this on your own server for some reason, follow these instructions. (You need PHP on your server)
 
 1.	Get the source. Duh.
-2.	Place the source where you want the app to exist, for example, I used a folder and mapped it to the subdomain badge.wolfthatissavage.com/
+2.	Place the source where you want the app to exist, for example, I used a folder and mapped it to the subdomain badge.savagewolf.org/
 3.	Rename conf.js and conf.php from their names, it should be obvious what to remove...
 4.	Crack open conf.js and configure like mad!
 5.	Set "php /path/to/rssUpdate.php on a crontab so it autoupdates. I set mine to every 15mins.

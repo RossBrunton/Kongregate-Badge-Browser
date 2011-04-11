@@ -46,7 +46,7 @@
 	</script>
 </head>
 
-<body onload='getHttpVars()'>
+<body>
 
 <!-- SavageWolf's badge browser -->
 
@@ -117,8 +117,16 @@
 	What is your Kongregate name?<br/>
 	<input type="text" id="name" onkeypress='checkEnter()'/>
 	<button type="button" onclick='run()'>Submit</button><br/>
-	(<a onclick='document.getElementById("name").value = "SWBB_NOUSER";run();document.getElementById("earnUnearn").innerHTML = ""'>Guest</a> - <a onclick="window.open('http://badge.wolfthatissavage.com/compare.php','compare','width=1050,height=475,toolbar=no, location=no,directories=no,status=no,menubar=no,scrollbars=no,copyhistory=no, resizable=no')">Compare</a>)
+	(<a onclick='document.getElementById("name").value = "SWBB_NOUSER";run();document.getElementById("earnUnearn").innerHTML = ""'>Guest</a> - <a onclick="window.open('/compare.php','compare','width=1050,height=475,toolbar=no, location=no,directories=no,status=no,menubar=no,scrollbars=no,copyhistory=no, resizable=no')">Compare</a>)
 </div>
+
+<!--April fools gag -->
+<script type='text/javascript'>
+getHttpVars();
+if(!skipGag && (new Date()).getMonth() == 3 && (new Date()).getDate() == 1){
+	setBody("login", "Kongregate Badge Browser, only $5 a month. Buy now!<br/><a href='explain.html'><img src='buyNow.gif' border='0' alt='Buy Now!'/></a>");
+}
+</script>
 
 <!-- Loading... -->
 <div class='box_header' id='load_h'>
@@ -287,7 +295,7 @@
 </div>
 
 <script>
-if(userName !== ""){
+if(userName !== "" && !(!skipGag && (new Date()).getMonth() == 3 && (new Date()).getDate() == 1)){
 	run();
 }
 </script>

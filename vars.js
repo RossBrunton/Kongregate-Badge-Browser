@@ -13,6 +13,7 @@ var search = ""; //Search string
 var searchR = RegExp(); //Search RegExp
 var useRegExp = false; //Use reGExp search? Instead of plain text?
 var httpVars = new Array(); //URL vars, an array of [var, value]
+var skipGag = false; //Skip any hilarius april fools gags
 
 //This gets all the vars in the URL, and sets things to them
 function getHttpVars(){
@@ -31,6 +32,10 @@ function getHttpVars(){
 		
 		if(httpVars[i][0] == "set"){
 			Bset = httpVars[i][1];
+		}
+		
+		if(httpVars[i][0] == "skipGag"){
+			skipGag = true;
 		}
 	}
 }
