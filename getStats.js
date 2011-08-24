@@ -73,7 +73,7 @@ function getStats(){
 		//Display a tweet button if using twitter
 		if(TWITTER){
 			stats += "</td><td align='right'>";
-				stats += '<iframe allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" class="twitter-share-button twitter-count-none" src="http://platform0.twitter.com/widgets/tweet_button.html?count=none&amp;lang=en&amp;related=Kongregate&amp;text='+tweetText+'&amp;url=http%3A%2F%2Fbadge.wolfthatissavage.com" style="width:55px; height:20px;" title="Tweet Button"></iframe>';
+				stats += '<iframe allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" class="twitter-share-button twitter-count-none" src="http://platform0.twitter.com/widgets/tweet_button.html?count=none&amp;lang=en&amp;related=Kongregate&amp;text='+tweetText+'&amp;url='+TWITTERURL+'" style="width:55px; height:20px;" title="Tweet Button"></iframe>';
 			stats += "</td>";
 		}
 		stats += "<td align='right' id='statRank_"+i+"'>";
@@ -91,7 +91,7 @@ function getStats(){
 	}
 	
 	//And the username and logout
-	stats += "<br/>" + userName + " - <a href='http://badge.wolfthatissavage.com/' onclick='localStorage.username = \"\"'>Logout</a>";
+	stats += "<br/>" + userName + " - <a href='/' onclick='localStorage.username = \"\"'>Logout</a>";
 	
 	//FINALLY we can set the text
 	setBody("stats", stats);

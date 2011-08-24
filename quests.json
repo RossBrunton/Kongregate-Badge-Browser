@@ -10,10 +10,6 @@
 
 {"name":"Best of 2010", "description":"Complete some badges from the top 10 games of 2010 to earn 50 bonus points!", "icon":"http://cdn4.kongregate.com/assets/raffle_images/0000/0036/medal_2010_130x90.png", "badges":[1303, 1302, 1219, 1156, 1077, 1066, 1058, 1021, 1003], "end":"Never"},
 
-{"name":"Pixel Pack", "description":"Back in my day, we didn't have these fancy vector graphics or 3D polygonism hoopla! Celebrate the pixelated past in each badge below to earn 50 bonus points!", "icon":"http://cdn3.kongregate.com/assets/raffle_images/0000/0026/medal_pixel-games_v2_130x90.png", "badges":[1057, 1014, 956, 879, 869, 787, 783, 728, 313], "end":"Never"}, 
-
-{"name":"Portal 2: Atlas", "description":"Complete all the badges in this Quest to become Atlas from the game Portal 2!<br/><br/>Once you've become Atlas, you'll be able to start receiving Orange Portals from P-Body users, so be sure to find them. Once you receive 3 Orange Portals, you will complete the Portal 2 mission! You also have gained the ability to shoot 3 Blue Portals to P-Body users so they can complete their mission. Be sure to give all 3, you'll be rewarded for your generosity. WILL THERE BE CAKE?", "icon":"http://cdn3.kongregate.com/assets/files/0000/2213/quest_atlas.png", "badges":[1060, 789, 567, 470, 279], "end":"March 18th, 2011"},
-
-{"name":"Portal 2: P Body", "description":"Complete all the badges in this Quest to become P-Body from the game Portal 2!<br/><br/>Once you've become P-Body, you'll be able to start receiving Blue Portals from Atlas users, so be sure to find them. Once you receive 3 Blue Portals, you will complete the Portal 2 mission! You also have gained the ability to shoot 3 Orange Portals to Atlas users so they can complete their mission. Be sure to give all 3, you'll be rewarded for your generosity. WILL THERE BE CAKE?", "icon":"http://cdn3.kongregate.com/assets/files/0000/2214/quest_pbody.png", "badges":[1292, 1122, 1110, 822, 231], "end":"March 18th, 2011"}
+{"name":"Pixel Pack", "description":"Back in my day, we didn't have these fancy vector graphics or 3D polygonism hoopla! Celebrate the pixelated past in each badge below to earn 50 bonus points!", "icon":"http://cdn3.kongregate.com/assets/raffle_images/0000/0026/medal_pixel-games_v2_130x90.png", "badges":[1057, 1014, 956, 879, 869, 787, 783, 728, 313], "end":"Never"}
 
 ]

@@ -28,6 +28,4 @@ $rss .= "</channel></rss>";
 $fh = fopen("rss.xml", 'w') or die("Can't open RSS file...");
 fwrite($fh, $rss);
 fclose($fh);
-
-echo $rss;
 ?>
