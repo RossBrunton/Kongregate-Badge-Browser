@@ -85,7 +85,7 @@ function getStats(){
 	copytext += "Average: "+(Math.round((earned[5]/earned[4])*10)/10)+"pts/badge\n";
 	
 	//The button things underneath the stats
-	stats += "</table>Average: "+(Math.round((earned[5]/earned[4])*10)/10)+"pts/badge - <a onclick='alert(copytext)'>Copy</a> - <a href='#' onclick=\"window.open('http://badge.wolfthatissavage.com/compare.php','compare','width=1050,height=475,toolbar=no, location=no,directories=no,status=no,menubar=no,scrollbars=no,copyhistory=no, resizable=no')\">Compare</a>";
+	stats += "</table>Average: "+(Math.round((earned[5]/earned[4])*10)/10)+"pts/badge - <a onclick='alert(copytext)'>Copy</a> - <a href='#' onclick=\"window.open('/compare.php','compare','width=1050,height=475,toolbar=no, location=no,directories=no,status=no,menubar=no,scrollbars=no,copyhistory=no, resizable=no')\">Compare</a>";
 	if(RANKING){
 		stats +=  " - <a href='#' onclick='if(confirm(\"Do you want to send your badge data to be ranked?\")){doRanking();}'>Submit</a>";
 	}
