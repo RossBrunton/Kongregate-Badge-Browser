@@ -117,7 +117,7 @@ function next3(){
 	
 	//Now A's ones
 	for(i = 0; i < userABadges.length; i++){
-		while(j = 0; j < badges.length; j++){
+		for(j = 0; j < badges.length; j++){
 			if(userABadges[i].badge_id == badges[j].id){
 				switch(badges[j].difficulty){
 					case "easy":earnedA[0]++;break;
