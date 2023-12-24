@@ -3,7 +3,7 @@
 
 $rss = "<?xml version='1.0' encoding='utf-8'?><rss version='2.0'><channel>";
 $rss .= "<title>Kongregate Badges</title>";
-$rss .= "<link>http://badge.wolfthatissavage.com/</link>";
+$rss .= "<link>http://badge.savagewolf.org/</link>";
 $rss .= "<description>RSS feed of new badges on Kongregate, created by SavageWolf.</description>";
 $rss .= "<lastBuildDate>".date("D, d M Y H:i:00", time())." GMT</lastBuildDate>";
 $rss .= "<language>en-us</language>";

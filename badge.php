@@ -6,7 +6,6 @@
 	<link href="styles.css" rel="stylesheet" type="text/css" />
 	<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/rss.xml" />
 	
-	<meta name="google-site-verification" id="verify" />
 	<meta name='description' content="A tool for browsing and sorting Kongregate's badges."/>
 	<meta name='keywords' content='Games,Flash,Kongregate'/>
 	<meta name='author' content='SavageWolf'/>
@@ -25,25 +24,6 @@
 	<script type="text/javascript" src='filterSortSearch.js'></script>
 	<script type="text/javascript" src='ranking.js'></script>
 	<script type="text/javascript" src='vars.js'></script>
-	
-	<script type="text/javascript">window.google_analytics_uacct = GA_ACCOUNT;</script>
-	<script type="text/javascript">
-	//Google analytics
-	if(GA_ACCOUNT){
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount',GA_ACCOUNT]);
-		_gaq.push(['_trackPageview']);
-		
-		(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-	}
-	
-	//Google verification
-	document.getElementById("verify").content = G_SITE_VERIFY;
-	</script>
 </head>
 
 <body>
@@ -55,25 +35,6 @@
 
 <div id='imageContainer' style='display:none'>
 	
-</div>
-
-<!-- Advertisement -->
-<div class='box_header' id='ada_h' style='display:block'>
-	<b>Advertisement</b>
-</div>
-<div class='box_body' id='ada_b' style='display:block'>
-	<script type="text/javascript"><!--
-		google_ad_client = G_AD_CLIENT;
-		/* Badge Browser */
-		google_ad_slot = G_AD_SLOT;
-		google_ad_width = 728;
-		google_ad_height = 90;
-		
-		if(!G_AD_CLIENT){
-			hide("ada");
-		}
-	</script>
-	<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
 </div>
 
 <!-- Random hints -->
@@ -145,7 +106,7 @@ if(!skipGag && (new Date()).getMonth() == 3 && (new Date()).getDate() == 1){
 	<table style='width:100%'>
 		<tr><td style='width:20%'>17:09 11/03/11</td><td style='width:80%'>Open source! See <a href='https://github.com/SavageWolf/Kongregate-Badge-Browser'>here</a>!</td></tr>
 		<tr><td style='width:20%'>19:06 19/02/11</td><td style='width:80%'>Guest mode and Twitter! Hooray!</td></tr>
-		<tr><td style='width:20%'>11:09 14/02/11</td><td style='width:80%'>There is now an RSS feed! See <a href='http://badge.wolfthatissavage.com/rss.xml'>here</a>.</td></tr>
+		<tr><td style='width:20%'>11:09 14/02/11</td><td style='width:80%'>There is now an RSS feed! See <a href='http://badge.savagewolf.org/rss.xml'>here</a>.</td></tr>
 		<tr><td style='width:20%'>12:20 23/01/11</td><td style='width:80%'>Usernames are saved, and the app checks for new badges, hopefully.</td></tr>
 		<tr><td style='width:20%'>19:30 22/01/11</td><td style='width:80%'>Filters and settings are saved. It's been a year since this was released!</td></tr>
 		<tr><td style='width:20%'>11:39 21/05/10</td><td style='width:80%'>Ranking.</td></tr>
@@ -271,25 +232,6 @@ if(!skipGag && (new Date()).getMonth() == 3 && (new Date()).getDate() == 1){
 <!-- Container for quests -->
 <div id='quests'>
 	
-</div>
-
-<!-- Advertisement -->
-<div class='box_header' id='adb_h' style='display:block'>
-	<b>Another Advertisement</b>
-</div>
-<div class='box_body' id='adb_b' style='display:block'>
-	<script type="text/javascript"><!--
-		google_ad_client = G_AD_CLIENT;
-		/* Badge Browser */
-		google_ad_slot = G_AD_SLOT;
-		google_ad_width = 728;
-		google_ad_height = 90;
-		
-		if(!G_AD_CLIENT){
-			hide("adb");
-		}
-	</script>
-	<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
 </div>
 
 </div>
